@@ -32,7 +32,7 @@ jobs:
           source: deploy/docker-compose.yaml
           target: deploy
           strip_components: 1
-  start app:
+  start_app:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
