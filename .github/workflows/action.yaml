@@ -1,4 +1,4 @@
-name: Skygramm_CI
+name: CI
 on: [push]
 jobs:
   build:
